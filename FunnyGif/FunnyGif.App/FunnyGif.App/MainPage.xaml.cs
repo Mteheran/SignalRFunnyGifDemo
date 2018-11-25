@@ -31,10 +31,20 @@ namespace FunnyGif.App
 
         private async void Button_Clicked_1(object sender, EventArgs e)
         {
+            IpAndPort = txtServer.Text;
+
             Con = new HubConnectionBuilder().
                                         WithUrl($"{IpAndPort}/message").Build();
 
-            await Con.StartAsync();
+            try
+            {
+                await Con.StartAsync();
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error",ex.Message,"OK");
+            }      
+           
         }
     }
 }

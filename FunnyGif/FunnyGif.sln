@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunnyGif", "FunnyGif\FunnyG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyGif.App.Android", "FunnyGif.App\FunnyGif.App.Android\FunnyGif.App.Android.csproj", "{892A42AD-BFC3-4800-A3BF-A89011BC20B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyGif.App", "FunnyGif.App\FunnyGif.App\FunnyGif.App.csproj", "{BB3811FE-59AA-4CD8-A128-B31A88EF5B47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunnyGif.App", "FunnyGif.App\FunnyGif.App\FunnyGif.App.csproj", "{BB3811FE-59AA-4CD8-A128-B31A88EF5B47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyGif.ClientConsole", "FunnyGif.ClientConsole\FunnyGif.ClientConsole.csproj", "{ACCC3333-FD9B-4741-BCAC-CA0314B2B4A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunnyGif.ClientConsole", "FunnyGif.ClientConsole\FunnyGif.ClientConsole.csproj", "{ACCC3333-FD9B-4741-BCAC-CA0314B2B4A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
