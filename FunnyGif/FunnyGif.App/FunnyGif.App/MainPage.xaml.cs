@@ -6,7 +6,7 @@ namespace FunnyGif.App
 {
     public partial class MainPage : ContentPage
     {
-        string IpAndPort { get; set; } = "http://172.16.28.47:5000";
+        string IpAndPort { get; set; } = "http://10.0.2.2:5000";
 
         HubConnection Con { get; set; }
 

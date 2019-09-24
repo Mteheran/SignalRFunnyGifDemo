@@ -7,8 +7,9 @@ namespace FunnyGif.ClientConsole
     {
         static void Main(string[] args)
         {
+            System.Threading.Thread.Sleep(5000);
             HubConnection con = new HubConnectionBuilder().
-                                       WithUrl("http://172.16.28.47:5000/message").Build();
+                                       WithUrl("http://localhost:5000/message").Build();
 
             con.StartAsync().Wait();
 

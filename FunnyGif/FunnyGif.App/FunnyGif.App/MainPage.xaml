@@ -3,15 +3,24 @@
              xmlns:local="clr-namespace:FunnyGif.App"
              x:Class="FunnyGif.App.MainPage" >
 
-    <StackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+           <RowDefinition Height="40" />
+           <RowDefinition Height="40" />
+           <RowDefinition Height="40" />
+           <RowDefinition Height="40" />
+           <RowDefinition Height="40" />
+
+
+        </Grid.RowDefinitions>
         <!-- Place new controls here -->
-        <Button Text="Connect" Clicked="Button_Clicked_1"></Button>
-        <Entry x:Name="txtServer" Text="http://172.16.28.47:5000"  ></Entry>
-        <Label Text="Ingrese Texto para completar Auxilio me desmayo..... " 
+        <Button Grid.Row="0" Text="Connect" Clicked="Button_Clicked_1"></Button>
+        <Entry Grid.Row="1" x:Name="txtServer" Text="http://10.0.2.2:5000"  ></Entry>
+        <Label Grid.Row="2" Text="Ingrese Texto" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Entry x:Name="txtValue"></Entry>
-        <Button Text="Send" Clicked="Button_Clicked"></Button>
-    </StackLayout>
+        <Entry Grid.Row="3" x:Name="txtValue"></Entry>
+        <Button Grid.Row="4" Text="Send" Clicked="Button_Clicked" ></Button>
+    </Grid>
 
 </ContentPage>
