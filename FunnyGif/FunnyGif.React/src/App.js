@@ -9,7 +9,7 @@ class App extends Component {
   {
     super(props);
     this.state = {
-    message : "callese viejo lesbiano",
+    message : "Esperando mensaje...",
     cssClass: "orange",
     cssClassList : ["red","yellow","blue","orange","purple"]
     }
@@ -53,8 +53,7 @@ changeMessage = (msg) =>
     return (
       <div className="App">
         <header className="App-header">
-            <div id="container"><p className={this.state.cssClass}><a>Auxilio me desmayo, {this.state.message}</a></p></div>
-            <img src={dino}  />
+            <div id="container"><p className={this.state.cssClass}><a> {this.state.message}</a></p></div>
         </header>
       </div>
     );
